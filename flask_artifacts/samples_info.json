@@ -1,0 +1,42 @@
+{
+    "sample_00_internal_ispar_exciting_transformer_internal_faults_Class1.npy": {
+        "true_label_id": 0,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class1"
+    },
+    "sample_01_internal_ispar_exciting_transformer_internal_faults_Class2.npy": {
+        "true_label_id": 1,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class2"
+    },
+    "sample_02_internal_ispar_exciting_transformer_internal_faults_Class3.npy": {
+        "true_label_id": 2,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class3"
+    },
+    "sample_03_internal_ispar_exciting_transformer_internal_faults_Class4.npy": {
+        "true_label_id": 3,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class4"
+    },
+    "sample_04_internal_ispar_exciting_transformer_internal_faults_Class5.npy": {
+        "true_label_id": 4,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class5"
+    },
+    "sample_05_internal_ispar_exciting_transformer_internal_faults_Class6.npy": {
+        "true_label_id": 5,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class6"
+    },
+    "sample_06_internal_ispar_exciting_transformer_internal_faults_Class7.npy": {
+        "true_label_id": 6,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class7"
+    },
+    "sample_07_internal_ispar_exciting_transformer_internal_faults_Class8.npy": {
+        "true_label_id": 7,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class8"
+    },
+    "sample_08_internal_ispar_exciting_transformer_internal_faults_Class9.npy": {
+        "true_label_id": 8,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_Class9"
+    },
+    "sample_09_internal_ispar_exciting_transformer_internal_faults_class10.npy": {
+        "true_label_id": 9,
+        "true_label_str": "internal_ispar_exciting_transformer_internal_faults_class10"
+    }
+}

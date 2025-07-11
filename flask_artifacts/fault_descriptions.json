@@ -1,0 +1,339 @@
+{
+  "internal_power_transformer_internal_faults_Class1": {
+    "description": "Internal Fault (Power Transformer): Phase A to Ground (AG). A short circuit between phase A winding and ground within the main power transformer.",
+    "causes": [
+      "Insulation failure (winding-ground)",
+      "Bushing failure",
+      "Contamination",
+      "Partial discharge"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class2": {
+    "description": "Internal Fault (Power Transformer): Phase B to Ground (BG). A short circuit between phase B winding and ground within the main power transformer.",
+    "causes": [
+      "Insulation failure (winding-ground)",
+      "Bushing failure",
+      "Contamination",
+      "Partial discharge"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class3": {
+    "description": "Internal Fault (Power Transformer): Phase C to Ground (CG). A short circuit between phase C winding and ground within the main power transformer.",
+    "causes": [
+      "Insulation failure (winding-ground)",
+      "Bushing failure",
+      "Contamination",
+      "Partial discharge"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class4": {
+    "description": "Internal Fault (Power Transformer): Phase A to Phase B to Ground (ABG). A short circuit involving phases A and B windings connected to ground.",
+    "causes": [
+      "Severe insulation breakdown",
+      "Arcing between phases and ground",
+      "Mechanical damage"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class5": {
+    "description": "Internal Fault (Power Transformer): Phase A to Phase C to Ground (ACG). A short circuit involving phases A and C windings connected to ground.",
+    "causes": [
+      "Severe insulation breakdown",
+      "Arcing between phases and ground",
+      "Mechanical damage"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class6": {
+    "description": "Internal Fault (Power Transformer): Phase B to Phase C to Ground (BCG). A short circuit involving phases B and C windings connected to ground.",
+    "causes": [
+      "Severe insulation breakdown",
+      "Arcing between phases and ground",
+      "Mechanical damage"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class7": {
+    "description": "Internal Fault (Power Transformer): Phase A to Phase B to Phase C to Ground (ABCG). A three-phase short circuit involving ground.",
+    "causes": [
+      "Catastrophic insulation failure",
+      "Major internal arcing",
+      "Severe mechanical damage"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class8": {
+    "description": "Internal Fault (Power Transformer): Phase A to Phase B (AB). A short circuit between phase A and phase B windings.",
+    "causes": [
+      "Insulation failure between phases",
+      "Winding deformation",
+      "Tap changer issues"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class9": {
+    "description": "Internal Fault (Power Transformer): Phase A to Phase C (AC). A short circuit between phase A and phase C windings.",
+    "causes": [
+      "Insulation failure between phases",
+      "Winding deformation",
+      "Tap changer issues"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class10": {
+    "description": "Internal Fault (Power Transformer): Phase B to Phase C (BC). A short circuit between phase B and phase C windings.",
+    "causes": [
+      "Insulation failure between phases",
+      "Winding deformation",
+      "Tap changer issues"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_Class11": {
+    "description": "Internal Fault (Power Transformer): Phase A to Phase B to Phase C (ABC). A three-phase short circuit clear of ground.",
+    "causes": [
+      "Severe insulation failure between all three phases",
+      "Major internal arcing"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_tt": {
+    "description": "Internal Fault (Power Transformer): Turn-to-Turn (TT). A short circuit between adjacent turns of the same winding.",
+    "causes": [
+      "Insulation breakdown between turns",
+      "Overheating",
+      "Mechanical vibration/stress",
+      "Manufacturing defects"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_power_transformer_internal_faults_ww": {
+    "description": "Internal Fault (Power Transformer): Winding-to-Winding (WW). A short circuit between different windings (e.g., primary to secondary).",
+    "causes": [
+      "Major insulation failure between windings",
+      "Severe overvoltage or mechanical stress",
+      "Bushing flashover extending internally"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class1": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Ground (AG).",
+    "causes": ["Insulation failure", "Bushing failure"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class2": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase B to Ground (BG).",
+    "causes": ["Insulation failure", "Bushing failure"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class3": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase C to Ground (CG).",
+    "causes": ["Insulation failure", "Bushing failure"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class4": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Phase B to Ground (ABG).",
+    "causes": ["Severe insulation breakdown", "Arcing"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class5": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Phase C to Ground (ACG).",
+    "causes": ["Severe insulation breakdown", "Arcing"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class6": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase B to Phase C to Ground (BCG).",
+    "causes": ["Severe insulation breakdown", "Arcing"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class7": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Phase B to Phase C to Ground (ABCG).",
+    "causes": ["Catastrophic insulation failure", "Major internal arcing"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class8": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Phase B (AB).",
+    "causes": ["Insulation failure between phases", "Winding deformation"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class9": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Phase C (AC).",
+    "causes": ["Insulation failure between phases", "Winding deformation"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class10": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase B to Phase C (BC).",
+    "causes": ["Insulation failure between phases", "Winding deformation"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_Class11": {
+    "description": "Internal Fault (ISPAR Series Unit): Phase A to Phase B to Phase C (ABC).",
+    "causes": ["Severe insulation failure between all three phases"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_tt": {
+    "description": "Internal Fault (ISPAR Series Unit): Turn-to-Turn (TT).",
+    "causes": [
+      "Insulation breakdown between turns",
+      "Overheating",
+      "Mechanical stress"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_series_transformer_internal_faults_ww": {
+    "description": "Internal Fault (ISPAR Series Unit): Winding-to-Winding (WW).",
+    "causes": [
+      "Major insulation failure between windings",
+      "Severe overvoltage"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class1": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Ground (AG).",
+    "causes": ["Insulation failure", "Bushing failure", "Tap changer fault"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class2": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase B to Ground (BG).",
+    "causes": ["Insulation failure", "Bushing failure", "Tap changer fault"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class3": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase C to Ground (CG).",
+    "causes": ["Insulation failure", "Bushing failure", "Tap changer fault"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class4": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Phase B to Ground (ABG).",
+    "causes": ["Severe insulation breakdown", "Arcing", "Tap changer fault"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class5": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Phase C to Ground (ACG).",
+    "causes": ["Severe insulation breakdown", "Arcing", "Tap changer fault"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class6": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase B to Phase C to Ground (BCG).",
+    "causes": ["Severe insulation breakdown", "Arcing", "Tap changer fault"],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class7": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Phase B to Phase C to Ground (ABCG).",
+    "causes": [
+      "Catastrophic insulation failure",
+      "Major internal arcing",
+      "Tap changer fault"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class8": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Phase B (AB).",
+    "causes": [
+      "Insulation failure between phases",
+      "Winding deformation",
+      "Tap changer fault"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class9": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Phase C (AC).",
+    "causes": [
+      "Insulation failure between phases",
+      "Winding deformation",
+      "Tap changer fault"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class10": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase B to Phase C (BC).",
+    "causes": [
+      "Insulation failure between phases",
+      "Winding deformation",
+      "Tap changer fault"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_Class11": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Phase A to Phase B to Phase C (ABC).",
+    "causes": [
+      "Severe insulation failure between all three phases",
+      "Tap changer fault"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_tt": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Turn-to-Turn (TT).",
+    "causes": [
+      "Insulation breakdown between turns",
+      "Overheating",
+      "Tap changer issues"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "internal_ispar_exciting_transformer_internal_faults_ww": {
+    "description": "Internal Fault (ISPAR Exciting Unit): Winding-to-Winding (WW).",
+    "causes": [
+      "Major insulation failure between windings",
+      "Severe overvoltage",
+      "Tap changer issues"
+    ],
+    "affected_area_hint": ["substation"]
+  },
+  "transient_capacitor_switching": {
+    "description": "Transient Disturbance: Capacitor Bank Switching. Caused by energizing/de-energizing capacitor banks for voltage support. Characterized by high-frequency oscillations.",
+    "causes": [
+      "Normal grid operation",
+      "Switch restrike",
+      "Breaker malfunction"
+    ],
+    "affected_area_hint": ["substation", "lines"]
+  },
+  "transient_external_fault_with_CT_saturation": {
+    "description": "Transient Disturbance: External Fault with CT Saturation. A fault outside the protection zone causes high current, saturating Current Transformers (CTs), potentially leading to incorrect differential current readings.",
+    "causes": [
+      "High magnitude external fault (line, bus)",
+      "Inadequate CT sizing/class",
+      "CT remanence"
+    ],
+    "affected_area_hint": ["lines", "substation"]
+  },
+  "transient_ferroresonance": {
+    "description": "Transient Disturbance: Ferroresonance. A complex, potentially damaging resonance between transformer inductance and system capacitance, often causing overvoltages.",
+    "causes": [
+      "Single-phase switching/fuse operation",
+      "Lightly loaded transformers",
+      "Long cable capacitance"
+    ],
+    "affected_area_hint": ["substation", "lines", "power-plant"]
+  },
+  "transient_magnetising_inrush": {
+    "description": "Transient Disturbance: Magnetizing Inrush. High, temporary current drawn when energizing a transformer due to core saturation. Not typically a fault.",
+    "causes": [
+      "Transformer energization",
+      "Voltage recovery after fault clearing"
+    ],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "transient_non-linear_load_switching": {
+    "description": "Transient Disturbance: Non-linear Load Switching. Caused by switching large loads that draw non-sinusoidal current (e.g., rectifiers, arc furnaces).",
+    "causes": [
+      "Industrial load operation (motors, furnaces)",
+      "Switching power electronic converters"
+    ],
+    "affected_area_hint": ["workspace", "lines"]
+  },
+  "transient_sympathetic_inrush": {
+    "description": "Transient Disturbance: Sympathetic Inrush. Inrush current induced in an already energized transformer when a nearby parallel transformer is energized.",
+    "causes": ["Energizing parallel transformers"],
+    "affected_area_hint": ["substation", "power-plant"]
+  },
+  "DEFAULT": {
+    "description": "No specific description available for this fault type or condition.",
+    "causes": ["Unknown or not specified in the description file."],
+    "affected_area_hint": ["unknown"]
+  }
+}

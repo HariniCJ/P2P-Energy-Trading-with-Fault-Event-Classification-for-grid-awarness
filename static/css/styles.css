@@ -1,0 +1,81 @@
+/* static/css/styles.css */
+
+/* Base style for grid components (remains B&W) */
+.grid-component {
+  border: 2px solid #cccccc; /* Default light gray border */
+  padding: 10px 15px;
+  margin: 5px;
+  text-align: center;
+  min-width: 100px;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  border-radius: 8px;
+  transition: all 0.3s ease; /* Smooth transitions */
+  font-weight: 500;
+}
+
+/* Style for indicating a fault (RED) */
+.fault-indicator-red {
+  border-color: #ef4444; /* Red border */
+  background-color: #fee2e2; /* Lighter red background */
+  color: #b91c1c; /* Darker red text */
+  border-width: 2px; /* Keep border width consistent or slightly increase */
+  font-weight: bold;
+  box-shadow: 0 0 12px 3px rgba(239, 68, 68, 0.6); /* Red glow effect */
+}
+
+/* Style for indicating normal status (GREEN) */
+.normal-indicator-green {
+  border-color: #10b981; /* Green border */
+  background-color: #d1fae5; /* Lighter green background */
+  color: #047857; /* Darker green text */
+  border-width: 2px;
+  font-weight: bold;
+  box-shadow: 0 0 12px 3px rgba(16, 185, 129, 0.5); /* Green glow effect */
+}
+
+/* Ensure select dropdown text doesn't get cut off */
+select {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #ffffff; /* Ensure white background */
+}
+
+/* Remove default focus outline which might be colored */
+select:focus,
+button:focus {
+  outline: none;
+}
+
+/* Simple CSS loading spinner (black) */
+.loader-bw {
+  border: 4px solid #e0e0e0; /* Light grey */
+  border-top: 4px solid #000000; /* Black */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.hidden {
+  display: none;
+}
+
+/* Ensure plot area has some height */
+#waveformPlot {
+  min-height: 300px;
+}
+
+/* Add some extra spacing for list items in results */
+#resultArea ul li {
+  margin-bottom: 0.25rem; /* Add space below each list item */
+}
