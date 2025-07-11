@@ -57,8 +57,9 @@ This project presents a complete pipeline for **automated classification of powe
 - Visualize 3-phase signal
 - Predict event class and display human-readable impact explanation
 - Simulate energy trade between producer & consumer
+  
+<img width="651" height="536" alt="image" src="https://github.com/user-attachments/assets/b69629d9-015d-42f4-a561-a495307c31b2" />
 
-![UI Screenshot](static/ui_preview.png)
 
 ---
 
